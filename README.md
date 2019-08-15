@@ -1,5 +1,5 @@
 # Cash_Register
-This is a front-end web project. I built this cash register with JavaScript. I wrote a blog post about the project, you can find it on my [medium profile]().
+This is a front-end web project. I built this cash register with JavaScript. I wrote a blog post about the project, you can find it on my [medium profile](https://medium.com/@marko.libor/cash-register-9a7613a23bee).
 
 ## Programming concepts I used
 * ES6
