@@ -27,14 +27,14 @@ function checkCashRegister(price, cash, cid) {
       return acc;
     }, {total:0});  // An initial value of the total key
   
-    // 1.Case: Change is the same amount as total in a register
+    // 1.Case: Available cash in a register equals to needed change
     if (register.total === change) {
       output.status = "CLOSED";
       output.change = cid;
       return output;
     };
   
-    // 2.Case: Change is more than total in a register => Obviously insufficient funds
+    // 2.Case: Available cash in a drawer is less than needed change => Obviously insufficient funds
     if (register.total < change) {
       output.status = "INSUFFICIENT_FUNDS";
       return output;
